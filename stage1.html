@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html>
+  <!-- This line is an HTML comment. -->
+  <!-- Comments help PEOPLE read code. They are ignored by the computer. Leave clear notes for yourself (and anyone else who might read your code later). -->
+
+  <!-- The <head> element contains information that won't be displayed on the page. -->
+  <head>
+    <!-- The <title> element normally sets the name of the browser tab-->
+    <title>Stage 1</title>
+    <link rel="stylesheet" href="main1.css">
+  </head>
+  <body>
+    <!--Table of contents-->
+    <div class="TOC">
+      <h1>Table of Contents</h1>
+      <!--Creating odered list for TOC-->
+      <ol>
+        <li><a href="#lesson-1">Lesson 1: Introduction to the Web</a>
+          <ul>
+            <li><a href="#lesson-1-1">How the Web Works</a></li>
+            <li><a href="#lesson-1-2">Why Computers are Stupid</a></li>
+          </ul>
+        </li>
+        <li class="TOC-lesson"><a href="#lesson-2">Lesson 2: Introduction to HTML</a>
+          <ul>
+            <li><a href="#lesson-2-1">What is HTML</a></li>
+            <li><a href="#lesson-2-2">Tags and Elements</a></li>
+            <li><a href="#lesson-2-3">Inline vs Block Elements</a></li>
+            <li><a href="#lesson-2-4">The DOM</a></li>
+          </ul>
+        </li>
+        <li class="TOC-lesson"><a href="#lesson-3">Lesson 3: How Learning to Code Works</a>
+          <ul>
+            <li><a href="#lesson-3-1">The Stages of Knowledge</a></li>
+            <li><a href="#lesson-3-2">Dealing with Frustration</a></li>
+            <li><a href="#lesson-3-3">Understanding DRY: Don't Repeat Yourself</a></li>
+            <li><a href="#lesson-3-4">Design, Code, Test, Refine</a></li>
+          </ul>
+        <li class="TOC-lesson"><a href="#lesson-4">Lesson 4: The Basics of CSS</a>
+          <ul>
+            <li><a href="#lesson-4-1">What is CSS</a></li>
+            <li><a href="#lesson-4-2">Definition of Styles</a></li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+    <!-- The <h1> tag stands for "heading 1". Heading tags go all the way up to <h6>. Lower numbered headings indicate content that is more important. -->
+    <h1>Important Concepts in Development</h1>
+    <div class="lesson">
+      <h2 id="lesson-1">Lesson 1: Introduction to the Web</h2>
+      <div class="concept" id="lesson-1-1">
+        <div class="concept-title">
+          How the Web Works
+        </div>
+        <div class="concept-description">
+          <p>
+            The web is a bunch of computers that communicate
+            with each other. When a person goes to a web
+            page like www.google.com, their computer sends
+            a <em>HTTP Request</em> to a <em>server</em>. The
+            server finds the appropriate HTML document and sends
+            it back to the user's computer where a <em>web browser</em>
+            interprets the page and displays it on the user's screen.
+            <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">This video</a>
+            does a good job of explaining.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id="lesson-1-2">
+        <div class="concept-title">
+          Why Computers are Stupid
+        </div>
+        <div class="content-description">
+          <p>
+            Computers are stupid because they interpret instructions
+            literally. This makes them very unforgiving since a
+            small mistake by a programmer can cause huge problems
+            in a program. It's wonderful and frustrating to know that
+            the program will always do what you tell it to.
+          </p>
+        </div>
+      </div>
+      <div class="lesson">
+        <h2 id="lesson-2">Lesson 2: Introduction to HTML</h2>
+        <div class="concept" id="lesson-2-1">
+          <div class="concept-title">
+            HTML
+          </div>
+        <div class="concept-description">
+          <p>
+            HTML stands for <em>Hypertext Markup Language.</em> HTML documents form the majority of the
+            content on the web. HTML documents contain <em>text content</em> which describes "what you see"
+            and <em>markup</em> which describes "how it looks".
+            <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340"> This
+            video</a> gives a good overview.
+          </p>
+        </div>
+      </div>
+        <div class="concept" id="lesson-2-2">
+          <div class="concept-title">
+            Tags and Elements
+          </div>
+          <div class="concept-description">
+            <p>
+              HTML documents are made of HTML <b>elements</b>. When
+              writing HTML, we tell browsers the type of each element by using HTML <b>tags</b>.
+              <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723444">This video</a>
+              explains the distinction well.
+            </p>
+          </div>
+        </div>
+        <div class="concept" id="lesson-2-3">
+          <div class="concept-title">
+            Inline vs Block Elements
+          </div>
+          <div class="concept-description">
+            <p>
+              HTML elements are either <b>inline</b> or <b>block</b>. Block
+              elements form an "invisible box" around the content inside of
+              them.
+            </p>
+            <p>
+              Examples of Inline elements include a, span, br, img, strong
+            </p>
+            <p>
+              Examples of Block elements include div, p, form
+            </p>
+          </div>
+        </div>
+        <div class="concept" id="lesson-2-4">
+          <div class="concept-title">
+            The DOM
+          </div>
+          <div class="concept-description">
+            <p>
+              <span>The Document Object Model</span> is a cross-platform and language-independent
+              convention for representing and interacting with objects in HTML. The
+              nodes of every document are organized in a tree structure, called
+              the DOM tree.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="lesson">
+        <h2 id="lesson-3">Lesson 3: How Learning to Code Works</h2>
+        <div class="concept" id="lesson-3-1">
+          <div class="concept-title">
+            The Stages of Knowledge
+          </div>
+          <div class="content-description">
+            <p>
+              Everyone begins learning at a novice stage and progresses through
+              states of awareness, ability and finally to an expert level of
+              fluency.
+            </p>
+          </div>
+        </div>
+        <div class="concept" id="lesson-3-2">
+          <div class="concept-title">
+            Dealing with Frustration
+          </div>
+          <div class="content-description">
+            <p>
+              All programmers encounter frustration. Don't allow frustration
+              to turn into despair, confusion, terror or other awful emotions.
+              Get up and walk or find a way to relax for a few moments before
+              jumping back into your code. Frustration is part of the learning
+              process. Despair doesn't have to be.
+            </p>
+          </div>
+        </div>
+        <div class="concept" id="lesson-3-3">
+          <div class="concept-title">
+            Understanding DRY: Don't Repeat Yourself
+          </div>
+          <div class="content-description">
+            <p>
+              It has been said that programmers are lazy. In other words,
+              programmers hate to repeat themselves. In fact, this is
+              a basic principle in development. Repetitious code creates
+              opportunities for bugs and is less performant then code that
+              follows DRY principles. Good code will not repeat itself.
+            </p>
+          </div>
+        </div>
+        <div class="concept" id="lesson-3-4">
+          <div class="concept-title">
+            Design, Code, Test, Refine
+          </div>
+          <div class="content-description">
+            <p>
+              <ol>
+                <li>Design a structure for the code. Often originally done on paper.</li>
+                <li>Write the Code.</li>
+                <li>Test what has been written. Note any bugs or failures.</li>
+                <li>Refine the code to follow DRY principles for bug-free optimization.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="lesson">
+        <h2 id="lesson-4">Lesson 4: The Basics of CSS</h2>
+        <div class="concept" id="lesson-4-1">
+          <div class="concept-title">
+            What is CSS
+          </div>
+          <div class="content-description">
+            <p>
+              CSS stands for Cascading Style Sheets. CSS is code
+              that controls the style of HTML elements.
+            </p>
+          </div>
+        </div>
+        <div class="concept" id="lesson-4-2">
+          <div class="concept-title">
+            Definition of Styles
+          </div>
+          <div class="content-description">
+            <p>
+              Styles can refer to elements, attributes, the general
+              look of a page or a verb. i.e. "I must style this page."
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div>
+      <p>
+        <em>I am blogging about my Intro to Programming Experience and my
+        experiment to finish the nanodegree in one weekend. You can
+        follow my journey at <a href="http://www.thechronicmonster.com">theChronicMonster</a>.</em>
+      </p>
+    </div>
+  </body>
+</html>
